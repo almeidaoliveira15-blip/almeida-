@@ -48,6 +48,13 @@
     <main>
 <body>
 <script>
-const botoes = document.querySelectorAll("button")
-botoes,array.forEach(function(botao)){ 
-    <botao.addeventlistener ("click")
+const botoes = document.querySelectorAll("button");
+botoes.forEach(function(botao)){ 
+    botao.addeventlistener ("click", botaoclicado);
+    function botaoclicado () {
+        let texto= botao.querySelector ("spa)");
+        texto.textContent++;
+    }
+}
+</script>
+</html>
